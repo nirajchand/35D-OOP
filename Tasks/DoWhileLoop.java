@@ -22,10 +22,11 @@ public class DoWhileLoop {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the negative number");
         int num = scan.nextInt();
-        while (num >= 0) {
+        do {
             System.out.println("Enter the negative number");
             num = scan.nextInt();
-        }
+        } while (num >= 0) ;
         System.out.println("ENd of the loop");
+        scan.close();
     }
 }
