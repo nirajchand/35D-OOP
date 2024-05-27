@@ -1,7 +1,4 @@
 package Tasks;
-
-import Week1.Task;
-
 public class ArrayClass {
     public static void main(String[] args) {
         // To create an array define datatype followed by [] 
@@ -46,8 +43,6 @@ public class ArrayClass {
             System.out.println(myFifthArray[i] +"\t"+ myFifthArray[i]*2);
         }
 
-        System.out.println("Name"+ "\t" + "Amount");
-        for(int i =)
     }
 
 }
